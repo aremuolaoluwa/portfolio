@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.header-content {
+	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/Olaoluwa.jpg);
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/Olaoluwa.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	width: 100%;
+	height: 80vh;
+	min-height: 600px;
+	position: relative;
+}
+
+.social-icons {
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	top: 50;
+	color: #fff;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.text-light {
+	color: #fff;
+	text-decoration: none;
+}
+
+.social-icons li {
+	display: block;
+}
+
+.profile-container {
+	/* background-color: red; */
+	position: absolute;
+	width: 600px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 10px;
+}
+
+.profile-name {
+	font-size: 48px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.profile-info {
+	font-size: 16px;
+	color: #fff;
+}
+
+.resume-container {
+	background-color: rgb(83, 139, 207);
+	width: 150px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 100px;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #fff;
+}
+
+.resume-container a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-items {
+	width: 50%;
+	padding: 5px;
+	margin: 2px auto;
+	background-color:#fff;
+	box-shadow: 1px 1px 0px 0px rgb(216, 216, 216);
+}
+
+.nav-li-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	box-shadow: 10px, 10px, 5px, 5px, rgb(0, 0, 0);
+}
+
+.nav-items ul li, a {
+	text-decoration: none;
+	list-style: none;
+	/* margin-right: 20px; */
+	color: rgb(30, 103, 193);
+}
