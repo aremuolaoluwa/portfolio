@@ -4,6 +4,7 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+	overflow-x: hidden;
 }
 
 .header-content {
@@ -15,10 +16,15 @@ body {
 	background-attachment: fixed;
 	margin: 0;
 	width: 100%;
-	height: 80vh;
+	height: 100vh;
 	min-height: 600px;
 	position: relative;
 }
+
+/* .social-media-container {
+	position: sticky;
+	top: 5;
+} */
 
 .social-icons {
 	position: absolute;
@@ -100,6 +106,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row;
+	flex-wrap: wrap;
 	box-shadow: 10px, 10px, 5px, 5px, rgb(0, 0, 0);
 }
 
@@ -108,4 +115,65 @@ body {
 	list-style: none;
 	/* margin-right: 20px; */
 	color: rgb(30, 103, 193);
+}
+
+.about-container {
+	background-color: red;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.about-items {
+	width: 100%;
+	background-color: blueviolet;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.about-text-content {
+	background-color: blue;
+	width: 45%;
+}
+
+.tools-container {
+	background-color: aqua;
+}
+
+.project-item-1, .project-item-2, .project-item-3, .project-item-4 {
+	width: 200px;
+	height: 200px;
+}
+
+.project-top-items {
+	background-color: chartreuse;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.project-last-items {
+	background-color: indianred;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.project-item-1 {background-color: antiquewhite;}
+.project-item-2 {background-color: rgb(105, 105, 2);}
+.project-item-3 {background-color: blueviolet;}
+.project-item-4 {background-color: chocolate;}
+
+.projects-container {
+	background-color: green;
+	border: 2px solid green;
+	width: 45%;
+	height: 500px;
 }
